@@ -1,12 +1,13 @@
 .header {
 	box-shadow: var(--shadow-3);
+	background-color: white;
 	padding: 2em 0;
 }
 
 .container {
 	max-width: 180rem;
 	margin: 0 auto;
-	width: 98%;
+	width: 95%;
 }
 
 .nav {
@@ -16,7 +17,7 @@
 }
 
 .logo {
-	font-size: 3rem;
+	font-size: var(--font-size-fluid-2);
 	font-family: cursive;
 }
 

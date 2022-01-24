@@ -12,8 +12,8 @@
 	font-size: 10px;
 }
 
-body {	
-
+body {
+	background-color: var(--gray-1);
 }
 
 .container {
