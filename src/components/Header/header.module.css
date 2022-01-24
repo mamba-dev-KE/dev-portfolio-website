@@ -1,7 +1,7 @@
 .header {
-	box-shadow: var(--shadow-3);
+	box-shadow: var(--shadow-2);
 	background-color: white;
-	padding: 2em 0;
+	padding: 1.5em 0;
 }
 
 .container {
@@ -22,7 +22,9 @@
 }
 
 .burger_icon {
-	font-size: 3.5rem;
+	min-height: 6rem;
+	width: 3.5rem;
+	/* border: 1px solid red; */
 }
 
 .nav_list {
