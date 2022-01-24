@@ -1,3 +1,40 @@
-.color {
-	color: gray;
+.header {
+	box-shadow: var(--shadow-3);
+	padding: 2em 0;
+}
+
+.container {
+	max-width: 180rem;
+	margin: 0 auto;
+	width: 98%;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 3rem;
+	font-family: cursive;
+}
+
+.nav_list {
+	list-style: none;
+	display: flex;
+}
+
+.nav_list > * {
+	font-size: 1.6rem;
+}
+
+.nav_list_item {
+	font-size: 2rem;
+	font-weight: 800;
+	font-family: calibri;
+}
+
+.nav_list_item + .nav_list_item {
+	margin-left: 2em;
 }
