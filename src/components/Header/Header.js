@@ -2,6 +2,7 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import * as headerStyles from "./header.module.css";
 import MenuIcon from "@mui/icons-material/Menu";
+import Button from "@mui/material/Button";
 
 const Header = () => {
 	const [width, setWidth] = useState(undefined);
@@ -23,7 +24,7 @@ const Header = () => {
 				<nav className={headerStyles.nav}>
 					<h4 className={headerStyles.logo}>{logo}</h4>
 					{width <= 375 ? (
-						<MenuIcon />
+						<MenuIcon className={headerStyles.burger_icon} />
 					) : (
 						<ul className={headerStyles.nav_list}>
 							<li className={headerStyles.nav_list_item}>About</li>

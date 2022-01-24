@@ -20,6 +20,10 @@
 	font-family: cursive;
 }
 
+.burger_icon {
+	font-size: 3.5rem;
+}
+
 .nav_list {
 	list-style: none;
 	display: flex;
