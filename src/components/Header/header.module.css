@@ -1,7 +1,8 @@
 .header {
 	box-shadow: var(--shadow-2);
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: white;
 	padding: 1.5em 0;
+	color: black;
 }
 
 .container {
@@ -17,8 +18,8 @@
 }
 
 .logo {
-	font-size: var(--font-size-fluid-2);
-	font-family: var(--font-sans);
+	font-size: var(--font-size-fluid-3);
+	font-family: var(--font-mono);
 	letter-spacing: 0.1em;
 	flex: 1;
 }
@@ -38,10 +39,10 @@
 
 .nav_list_item {
 	font-size: 2rem;
-	font-weight: 800;
-	font-family: calibri;
+	font-weight: var(--font-weight-6);
+	font-family: var(--font-sans);
 }
 
 .nav_list_item + .nav_list_item {
-	margin-left: 2em;
+	margin-left: var(--size-9);
 }

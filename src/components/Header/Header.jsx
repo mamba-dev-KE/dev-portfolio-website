@@ -4,24 +4,9 @@ import * as styles from "./header.module.css";
 // import MenuIcon from "@mui/icons-material/Menu";
 
 const Header = () => {
-	const [width, setWidth] = useState(undefined);
 	const [isOpen, setIsOpen] = useState(false);
-
-	// useEffect(() => {
-	// 	const handleResize = () => {
-	// 		setWidth(window.innerWidth);
-	// 	};
-
-	// 	window.addEventListener("resize", handleResize);
-	// 	handleResize();
-	// 	return () => window.removeEventListener("resize", handleResize);
-	// }, []);
-
-	// const handleClick = () => {
-	// 	setIsOpen(!isOpen);
-	// };
-
 	const logo = `J.M.`;
+	
 	return (
 		<header className={styles.header}>
 			<div className={styles.container}>

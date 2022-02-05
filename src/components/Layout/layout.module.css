@@ -1,4 +1,4 @@
-@import "open-props/style";
+@import "https://unpkg.com/open-props";
 
 *,
 *::before,
@@ -13,7 +13,8 @@
 }
 
 body {
-	background-color: var(--red-2);
+	background-color: var(--gray-9);
+	color: white;
 }
 
 .container {
