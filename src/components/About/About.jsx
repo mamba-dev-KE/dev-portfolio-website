@@ -1,7 +1,9 @@
 import * as React from "react";
 
 const About = () => {
-	return <div></div>;
+	return <section className={StyleSheet.about}>
+		About works!
+	</section>;
 };
 
 export default About;

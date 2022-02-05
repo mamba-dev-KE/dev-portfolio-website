@@ -6,7 +6,7 @@ import About from "../components/About/About";
 const IndexPage = () => {
 	return (
 		<Layout>
-			<About />
+			<Hero />
 			<Skills />
 		</Layout>
 	);
