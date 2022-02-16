@@ -1,5 +1,4 @@
-.header {
-	box-shadow: var(--shadow-2);
+.header {	box-shadow: var(--shadow-2);
 	background-color: white;
 	padding: 1.5em 0;
 	color: black;
